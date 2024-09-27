@@ -46,6 +46,7 @@ body{
     width: 100%;
 }
 
+/* Header Section */
 #header{
     display: flex;
     align-items:center;
