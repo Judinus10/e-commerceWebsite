@@ -98,8 +98,8 @@ body{
 }
 
 .logo{
-    max-width: 80px;
-    max-height: 80px;
+    max-width: 60px;
+    max-height: 60px;
 }
 
 /* Home Page */
@@ -193,3 +193,4 @@ body{
 #feature .fe-box:nth-child(6) h6{
     background-color:aqua ;
 }
+
