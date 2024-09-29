@@ -42,6 +42,19 @@ p{
     margin: 40px 0;
 }
 
+#btn{
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px 30px;
+    color: #000;
+    background-color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+}
+
 body{
     width: 100%;
 }
@@ -54,6 +67,10 @@ body{
     padding: 20px 80px;
     background: #E3E6F3;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
 }
 
 #navbar{
@@ -94,8 +111,8 @@ body{
 }
 
 .logo{
-    max-width: 80px;
-    max-height: 80px;
+    max-width: 60px;
+    max-height: 60px;
 }
 
 /* Home Page */
@@ -106,9 +123,309 @@ body{
     width: 100%;
     background-size: cover;
     background-position: top left ;
-    padding: 20px;
+    padding: 60px;
     display: flex;
     flex-direction: column;
     align-items:flex-start;
     justify-content: center;
+}
+
+#hero h4{
+    padding-bottom: 2%;
+}
+
+#hero h1{
+    color: blanchedalmond;
+}
+
+#hero button{
+    background-image: url("assets/img/btn.png");
+    background-color: transparent;
+    color: bisque;
+    border: 0;
+    padding: 14px 80px 14px 65px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 15px;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Features */
+
+#feature .fe-box{
+    width: 180px;
+    text-align: center;
+    padding: 25px 15px;
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
+    border: 1px solid #cce7d0;
+    border-radius: 4px;
+    margin: 15px 15px;
+    
+}
+
+#feature .fe-box:hover{
+    box-shadow: 20px 20px 54px rgba(0, 0, 0, 0.1);
+}
+
+#feature .fe-box h6{
+    display:inline-block;
+    padding: 9px 8px 6px 8px;
+    line-height: 1;
+    border-radius: 4px;
+    color: #088178;
+    background-color: #fddde4;
+
+}
+
+.fe-box{
+    display:inline-block;
+    align-items:center;
+    justify-content: space-between;
+    
+}
+
+#feature .fe-box img{
+    max-width: 100px;
+    max-height: 100px;
+}
+
+#feature .fe-box:nth-child(2) h6{
+    background-color:aqua ;
+}
+#feature .fe-box:nth-child(3) h6{
+    background-color: aquamarine ;
+}
+#feature .fe-box:nth-child(4) h6{
+    background-color:rgb(224, 228, 123);
+}
+#feature .fe-box:nth-child(5) h6{
+    background-color:chartreuse ;
+}
+#feature .fe-box:nth-child(6) h6{
+    background-color:aqua ;
+}
+
+/* Product */
+
+#product {
+    text-align: center;
+}
+
+#pro {
+    width: 23%;
+    min-width: 250px;
+    /* padding: 10px 12px; */
+    border: 1px solid #161717;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+    margin: 15px 10px;
+    transition: 0.2s ease;
+    position: relative;
+    display:inline-block;
+    align-items:center;
+    justify-content: space-between;
+}
+
+#pro:hover {
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
+}
+
+#pro img {
+    width:70%;
+    /* height: 60%; */
+    border-radius: 20px;
+}
+
+#des {
+    text-align: start;
+    padding: 10px 5px;
+}
+
+#des span {
+    color: #060606;
+    font-size: 12px;
+}
+
+#des h5 {
+    padding-top: 7px;
+    color: #1a1a1a;
+    font-size: 14px;
+}
+
+#des i {
+    font-size: 12px;
+    color: yellow;
+}
+
+#des h4 {
+    padding-top: 7px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #088178;
+}
+
+.cart {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50px;
+    background-color: #e8f6ea;
+    font-weight: 500;
+    color: #088178;
+    border: 1px solid #cce7d0;
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+}
+
+/* Banner */
+
+#banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url("assets/img/banner.png");
+    background-repeat:no-repeat;
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+}
+/* 
+#banner img{
+    width: 100%;
+    height: 60%; 
+    border-radius: 20px;
+} */
+
+#banner h4{
+    color: rgb(199, 194, 194);
+}
+
+#banner h2{
+    padding: 25px 0 25px 0;
+    color: white;
+}
+
+#banner h2 span{
+    color: #f3375f;
+}
+
+#banner button:hover{
+    color: white;
+    background-color: #088178;
+}
+
+/* sm-banner */
+
+#sm-banner{
+    display:flex;
+    align-items:center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#sm-banner .banner-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url("assets/img/banner.png");
+    /* background-repeat:no-repeat; */
+    min-width: 580px;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+}
+
+#sm-banner h4{
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#sm-banner h2{
+    color: rgb(229, 240, 170);
+    font-size: 28px;
+    font-weight: 800;
+}
+
+#sm-banner span{
+    color: rgb(179, 179, 177);
+    font-size: 28px;
+    font-weight: 800;
+}
+
+#sm-banner button{
+    font-size: 13px;
+    font-weight: 600;
+    padding: 11px 18px;
+    color: #fff;
+    background-color:transparent;
+    /* border-radius: 4px; */
+    cursor: pointer;
+    border: 1px solid #fff;
+    outline: none;
+    transition: 0.2s;
+}
+
+#sm-banner .banner-box:hover button{
+    /* color: white; */
+    background-color: #088178;
+    border: 1px solid #088178;
+}
+
+#sm-banner .banner-box2 {
+    background-image: url("assets/img/banner.png");
+}
+
+/* Banner 3 */
+
+#banner3{
+    display:flex;
+    align-items:center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    /* padding: 0 80px; */
+}
+
+#banner3 .banner-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url("assets/img/banner.png");
+    /* background-repeat:no-repeat; */
+    min-width: 30%;
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#banner3 h2{
+    color: #fff;
+    font-weight: 900;
+    font-size: 22px;
+}
+
+#banner3 h3{
+    color: #eeb7b7;
+    font-weight: 800;
+    font-size: 15px;
+}
+
+#banner3 .banner-box2 {
+    background-image: url("assets/img/banner.png");
+}
+
+#banner3 .banner-box3 {
+    background-image: url("assets/img/banner.png");
 }
