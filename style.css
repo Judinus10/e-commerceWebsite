@@ -42,6 +42,19 @@ p{
     margin: 40px 0;
 }
 
+#btn{
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px 30px;
+    color: #000;
+    background-color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+}
+
 body{
     width: 100%;
 }
@@ -228,7 +241,7 @@ body{
 
 #des {
     text-align: start;
-    padding: 10px 0;
+    padding: 10px 5px;
 }
 
 #des span {
@@ -267,3 +280,5 @@ body{
     bottom: 20px;
     right: 10px;
 }
+
+
