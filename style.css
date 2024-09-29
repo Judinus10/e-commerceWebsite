@@ -384,3 +384,48 @@ body{
 #sm-banner .banner-box2 {
     background-image: url("assets/img/banner.png");
 }
+
+/* Banner 3 */
+
+#banner3{
+    display:flex;
+    align-items:center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    /* padding: 0 80px; */
+}
+
+#banner3 .banner-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url("assets/img/banner.png");
+    /* background-repeat:no-repeat; */
+    min-width: 30%;
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#banner3 h2{
+    color: #fff;
+    font-weight: 900;
+    font-size: 22px;
+}
+
+#banner3 h3{
+    color: #eeb7b7;
+    font-weight: 800;
+    font-size: 15px;
+}
+
+#banner3 .banner-box2 {
+    background-image: url("assets/img/banner.png");
+}
+
+#banner3 .banner-box3 {
+    background-image: url("assets/img/banner.png");
+}
