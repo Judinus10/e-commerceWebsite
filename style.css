@@ -43,14 +43,14 @@ p{
 }
 
 #btn{
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 600;
-    padding: 10px 30px;
-    color: #000;
-    background-color: #fff;
-    border-radius: 4px;
+    padding: 11px 18px;
+    color: #fff;
+    background-color:transparent;
+    /* border-radius: 4px; */
     cursor: pointer;
-    border: none;
+    border: 1px solid #fff;
     outline: none;
     transition: 0.2s;
 }
@@ -428,4 +428,60 @@ body{
 
 #banner3 .banner-box3 {
     background-image: url("assets/img/banner.png");
+}
+
+/* Newsletter */
+
+#newsletter{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-image: url("assets/img/banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: 20% 30%; */
+    background-color: #1a1a1a;
+}
+
+#newsletter h4{
+    font-size: 22px;
+    font-weight: 700;
+    color: rgb(184, 177, 177);
+}
+
+#newsletter p{
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(143, 141, 141);
+}
+
+#newsletter p span{
+    color: rgb(247, 216, 59);
+}
+
+#newsletter input {
+    height: 2.125rem;
+    padding: 0 1.25em;
+    font-size: 14px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    width: 100%;
+    outline: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+#newsletter form{
+    display: flex;
+    width: 105%;
+}
+
+#newsletter button {
+    height: 2.125rem;
+    background-color: #088178;
+    color: #fff;
+    white-space: nowrap;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
 }
