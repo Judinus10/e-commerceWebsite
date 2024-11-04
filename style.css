@@ -649,8 +649,8 @@ footer a:hover{
 }
 
 #prodetails .single-pro-details input{
-    width: 50%;
-    height: 47px;
+    width: 20%;
+    height: 35px;
     padding-left: 10px;
     font-size: 16px;
     margin-right: 10px;
@@ -663,6 +663,8 @@ footer a:hover{
 #prodetails .single-pro-details button{
     background: #088178;
     color: #fff;
+    height: 30px;
+    width: 20%;
 }
 
 #prodetails .single-pro-details span{
@@ -746,6 +748,9 @@ footer a:hover{
     #newsletter .form{
         width:70% ;
     }
+    #prodetails .single-pro-details button{
+        width: 30%;
+    }
 }
 
 @media(max-width: 477px){
@@ -811,5 +816,8 @@ footer a:hover{
     }
     #prodetail .single-pro-details{
         width: 100%;
+    }
+    #prodetails .single-pro-details button{
+        width: 30%;
     }
 }
