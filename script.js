@@ -13,3 +13,13 @@ if (close) {
         nav.classList.remove('active');
     })
 }
+
+// single product
+var MainImg = document.getElementById("MainImg");
+var smalling = document.getElementsByClassName("small-img");
+
+for (let i = 0; i < smalling.length; i++) {
+    smalling[i].onclick = function() {
+        MainImg.src = smalling[i].src;
+    };
+}
