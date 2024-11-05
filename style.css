@@ -673,9 +673,10 @@ footer a:hover{
 
 /* Blog page */
 
-#page-header .blog-header{
-    background-image: url(assets/img/banner/b10.jpg);
+#page-header .blog-header {
+    background-image: url('assets/img/banner/b19.jpg');
 }
+
 
 #blog{
     padding: 150px 150px 0 150px;
@@ -890,4 +891,26 @@ footer a:hover{
     #prodetails .single-pro-details button{
         width: 30%;
     }
+
+    /* Blog Page */
+
+    #blog{
+        padding: 100px w0px 0 20px ;
+    }
+    #blog .blog-box{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #blog .blog-img{
+        width: 100%;
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+
+    #blog .blog-details{
+        width: 100%;
+    }
+    
 }
