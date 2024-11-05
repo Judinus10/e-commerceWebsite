@@ -671,6 +671,12 @@ footer a:hover{
     line-height: 25px;
 }
 
+/* Blog page */
+
+#page-header .blog-header{
+    background-image: url(assets/img/banner/b19.jpg);
+}
+
 @media(max-width:799px){
     .section-p1{
         padding: 40px 40px;
