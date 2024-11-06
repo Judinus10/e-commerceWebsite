@@ -741,6 +741,11 @@ footer a:hover{
     color: #c9cbce;
     z-index: -9;
 }
+ /* About us */
+
+ #page-header .about-header {
+    background-image: url('assets/img/banner/b17.jpg');
+}
 
 @media(max-width:799px){
     .section-p1{
