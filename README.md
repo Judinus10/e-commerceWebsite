@@ -21,7 +21,7 @@ This is a personal project of an e-commerce website designed for a clothing bran
 ## Installation
 1. Clone the repository:
    ```sh
-   [https://github.com/Judinus10/e-commerceWebsite.git
+   git clone https://github.com/Judinus10/e-commerceWebsite.git
    ```
 2. Navigate to the project directory:
    ```sh
